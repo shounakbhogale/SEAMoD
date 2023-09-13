@@ -1,0 +1,5 @@
+Data	D4_Neu	D4_Ast	D4_OligD	Total
+T_UP	0.0	-1.0	-1.0	NA
+T_Down	-0.01	-1.0	-1.0	NA
+Train + Valid	0.84	0.44	0.4	0.56
+Test	0.4	0.0	0.2	0.20000000000000004

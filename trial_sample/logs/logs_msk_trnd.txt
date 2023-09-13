@@ -1,0 +1,665 @@
+2.2.0
+Expression file loaded.  (30, 4)
+Labels created.  (30, 3)
+Sequences loaded.  (30, 2, 64, 1001) 0.017
+Partitions loaded.  [(20,), (5,), (5,)]
+Accessibility data loaded.  (30, 16, 4) 0.016
+Partitioned Features and Labels created.  (20, 2, 64, 1001) (20, 16, 4) (20, 3) (5, 2, 64, 1001) (5, 16, 4) (5, 3) (5, 2, 64, 1001) (5, 16, 4) (5, 3)
+dict_params created.
+Deleted dict_data. Memory Usage: 25.3
+{
+    "init_seed_value": 2023,
+    "dir_acc": "acc/nn4/",
+    "dir_data": "data/",
+    "dir_logs": "trial_sample/",
+    "dir_pbms": "motifs_mod/",
+    "dir_prtn": "prtn/",
+    "dir_seqs": "seqs/nn4/",
+    "dir_msks": "gene_msks/",
+    "file_gene_exp": "gene_class.txt",
+    "file_pbms": "pwms_rel.txt",
+    "cells": [
+        "D0_NSC",
+        "D4_Neu",
+        "D4_Ast",
+        "D4_OligD"
+    ],
+    "pbm_extn": "wtmx",
+    "pbm_train": "one",
+    "n_seqs": 4,
+    "n_cells": 4,
+    "acc": "true",
+    "l_seqs": 1001,
+    "n_cpu": 4,
+    "wt_l1": 0.0,
+    "wt_l2": 0.0,
+    "wt_kl": 0.0,
+    "lrng_rt": 0.001,
+    "conv_init": "true",
+    "l_pwms": 8,
+    "n_pwms": 8,
+    "loss_func": "mean_squared_error",
+    "shape_lyrs": [
+        3,
+        3
+    ],
+    "act_funcs": [
+        "relu",
+        "relu",
+        "relu"
+    ],
+    "quant_monitor": "val_loss",
+    "quant_model": "val_mean_squared_error",
+    "n_epochs": 10
+}
+trial_sample/msk created.
+trial_sample/msk_pred created.
+trial_sample/msk_pred/0 created.
+Deleted dict_data. Memory Usage: 30.3
+trial_sample/msk_pred/0 created.
+Deleted dict_data. Memory Usage: 49.2
+trial_sample/msk_pred/1 created.
+Deleted dict_data. Memory Usage: 48.4
+trial_sample/msk_pred/2 created.
+Deleted dict_data. Memory Usage: 46.9
+trial_sample/msk_pred/3 created.
+Deleted dict_data. Memory Usage: 47.2
+trial_sample/msk_pred/4 created.
+Deleted dict_data. Memory Usage: 50.8
+trial_sample/msk_pred/5 created.
+Deleted dict_data. Memory Usage: 0.0
+trial_sample/msk_pred/6 created.
+Deleted dict_data. Memory Usage: 52.2
+trial_sample/msk_pred/7 created.
+Deleted dict_data. Memory Usage: 56.0
+trial_sample/msk_pred/8 created.
+Deleted dict_data. Memory Usage: 55.2
+trial_sample/msk_pred/9 created.
+Deleted dict_data. Memory Usage: 56.2
+trial_sample/msk_pred/10 created.
+Deleted dict_data. Memory Usage: 52.2
+trial_sample/msk_pred/11 created.
+Deleted dict_data. Memory Usage: 52.3
+trial_sample/msk_pred/12 created.
+Deleted dict_data. Memory Usage: 50.4
+trial_sample/msk_pred/13 created.
+Deleted dict_data. Memory Usage: 52.3
+trial_sample/msk_pred/14 created.
+Deleted dict_data. Memory Usage: 50.4
+trial_sample/msk_pred/15 created.
+Deleted dict_data. Memory Usage: 51.2
+Deleted df_enhancer_perf_0. Memory Usage: 0.0
+trial_sample/msk_pred/16 created.
+Deleted dict_data. Memory Usage: 47.1
+trial_sample/msk_pred/17 created.
+Deleted dict_data. Memory Usage: 52.6
+trial_sample/msk_pred/18 created.
+Deleted dict_data. Memory Usage: 58.6
+trial_sample/msk_pred/19 created.
+Deleted dict_data. Memory Usage: 56.9
+trial_sample/msk_pred/20 created.
+Deleted dict_data. Memory Usage: 52.7
+trial_sample/msk_pred/21 created.
+Deleted dict_data. Memory Usage: 50.4
+trial_sample/msk_pred/22 created.
+Deleted dict_data. Memory Usage: 54.4
+trial_sample/msk_pred/23 created.
+Deleted dict_data. Memory Usage: 51.5
+trial_sample/msk_pred/24 created.
+Deleted dict_data. Memory Usage: 51.9
+trial_sample/msk_pred/25 created.
+Deleted dict_data. Memory Usage: 50.0
+trial_sample/msk_pred/26 created.
+Deleted dict_data. Memory Usage: 49.2
+trial_sample/msk_pred/27 created.
+Deleted dict_data. Memory Usage: 49.2
+trial_sample/msk_pred/28 created.
+Deleted dict_data. Memory Usage: 51.9
+trial_sample/msk_pred/29 created.
+Deleted dict_data. Memory Usage: 51.1
+trial_sample/msk_pred/30 created.
+Deleted dict_data. Memory Usage: 0.0
+trial_sample/msk_pred/31 created.
+Deleted dict_data. Memory Usage: 51.4
+Deleted df_enhancer_perf_1. Memory Usage: 33.3
+trial_sample/msk_pred/32 created.
+Deleted dict_data. Memory Usage: 50.0
+trial_sample/msk_pred/33 created.
+Deleted dict_data. Memory Usage: 50.4
+trial_sample/msk_pred/34 created.
+Deleted dict_data. Memory Usage: 52.2
+trial_sample/msk_pred/35 created.
+Deleted dict_data. Memory Usage: 52.7
+trial_sample/msk_pred/36 created.
+Deleted dict_data. Memory Usage: 52.7
+trial_sample/msk_pred/37 created.
+Deleted dict_data. Memory Usage: 54.5
+trial_sample/msk_pred/38 created.
+Deleted dict_data. Memory Usage: 82.7
+trial_sample/msk_pred/39 created.
+Deleted dict_data. Memory Usage: 70.2
+trial_sample/msk_pred/40 created.
+Deleted dict_data. Memory Usage: 52.3
+trial_sample/msk_pred/41 created.
+Deleted dict_data. Memory Usage: 50.4
+trial_sample/msk_pred/42 created.
+Deleted dict_data. Memory Usage: 50.4
+trial_sample/msk_pred/43 created.
+Deleted dict_data. Memory Usage: 51.9
+trial_sample/msk_pred/44 created.
+Deleted dict_data. Memory Usage: 50.0
+trial_sample/msk_pred/45 created.
+Deleted dict_data. Memory Usage: 51.5
+trial_sample/msk_pred/46 created.
+Deleted dict_data. Memory Usage: 53.0
+trial_sample/msk_pred/47 created.
+Deleted dict_data. Memory Usage: 51.1
+Deleted df_enhancer_perf_2. Memory Usage: 63.6
+trial_sample/msk_pred/48 created.
+Deleted dict_data. Memory Usage: 54.8
+trial_sample/msk_pred/49 created.
+Deleted dict_data. Memory Usage: 52.3
+trial_sample/msk_pred/50 created.
+Deleted dict_data. Memory Usage: 55.1
+trial_sample/msk_pred/51 created.
+Deleted dict_data. Memory Usage: 54.5
+trial_sample/msk_pred/52 created.
+Deleted dict_data. Memory Usage: 50.8
+trial_sample/msk_pred/53 created.
+Deleted dict_data. Memory Usage: 52.3
+trial_sample/msk_pred/54 created.
+Deleted dict_data. Memory Usage: 50.0
+trial_sample/msk_pred/55 created.
+Deleted dict_data. Memory Usage: 51.6
+trial_sample/msk_pred/56 created.
+Deleted dict_data. Memory Usage: 50.8
+trial_sample/msk_pred/57 created.
+Deleted dict_data. Memory Usage: 50.4
+trial_sample/msk_pred/58 created.
+Deleted dict_data. Memory Usage: 51.5
+trial_sample/msk_pred/59 created.
+Deleted dict_data. Memory Usage: 51.9
+trial_sample/msk_pred/60 created.
+Deleted dict_data. Memory Usage: 48.8
+trial_sample/msk_pred/61 created.
+Deleted dict_data. Memory Usage: 54.3
+trial_sample/msk_pred/62 created.
+Deleted dict_data. Memory Usage: 51.9
+trial_sample/msk_pred/63 created.
+Deleted dict_data. Memory Usage: 50.0
+Deleted df_enhancer_perf_3. Memory Usage: 29.6
+trial_sample/msk_pred/64 created.
+Deleted dict_data. Memory Usage: 50.4
+trial_sample/msk_pred/65 created.
+Deleted dict_data. Memory Usage: 51.9
+trial_sample/msk_pred/66 created.
+Deleted dict_data. Memory Usage: 49.2
+trial_sample/msk_pred/67 created.
+Deleted dict_data. Memory Usage: 53.0
+trial_sample/msk_pred/68 created.
+Deleted dict_data. Memory Usage: 50.8
+trial_sample/msk_pred/69 created.
+Deleted dict_data. Memory Usage: 50.8
+trial_sample/msk_pred/70 created.
+Deleted dict_data. Memory Usage: 50.4
+trial_sample/msk_pred/71 created.
+Deleted dict_data. Memory Usage: 50.8
+trial_sample/msk_pred/72 created.
+Deleted dict_data. Memory Usage: 51.9
+trial_sample/msk_pred/73 created.
+Deleted dict_data. Memory Usage: 51.9
+trial_sample/msk_pred/74 created.
+Deleted dict_data. Memory Usage: 51.5
+trial_sample/msk_pred/75 created.
+Deleted dict_data. Memory Usage: 50.0
+trial_sample/msk_pred/76 created.
+Deleted dict_data. Memory Usage: 51.9
+trial_sample/msk_pred/77 created.
+Deleted dict_data. Memory Usage: 51.9
+trial_sample/msk_pred/78 created.
+Deleted dict_data. Memory Usage: 61.7
+trial_sample/msk_pred/79 created.
+Deleted dict_data. Memory Usage: 52.3
+Deleted df_enhancer_perf_4. Memory Usage: 26.9
+trial_sample/msk_pred/80 created.
+Deleted dict_data. Memory Usage: 52.3
+trial_sample/msk_pred/81 created.
+Deleted dict_data. Memory Usage: 51.9
+trial_sample/msk_pred/82 created.
+Deleted dict_data. Memory Usage: 53.8
+trial_sample/msk_pred/83 created.
+Deleted dict_data. Memory Usage: 54.5
+trial_sample/msk_pred/84 created.
+Deleted dict_data. Memory Usage: 0.0
+trial_sample/msk_pred/85 created.
+Deleted dict_data. Memory Usage: 50.8
+trial_sample/msk_pred/86 created.
+Deleted dict_data. Memory Usage: 49.2
+trial_sample/msk_pred/87 created.
+Deleted dict_data. Memory Usage: 49.6
+trial_sample/msk_pred/88 created.
+Deleted dict_data. Memory Usage: 51.1
+trial_sample/msk_pred/89 created.
+Deleted dict_data. Memory Usage: 53.0
+trial_sample/msk_pred/90 created.
+Deleted dict_data. Memory Usage: 49.2
+trial_sample/msk_pred/91 created.
+Deleted dict_data. Memory Usage: 51.5
+trial_sample/msk_pred/92 created.
+Deleted dict_data. Memory Usage: 50.4
+trial_sample/msk_pred/93 created.
+Deleted dict_data. Memory Usage: 60.4
+trial_sample/msk_pred/94 created.
+Deleted dict_data. Memory Usage: 61.9
+trial_sample/msk_pred/95 created.
+Deleted dict_data. Memory Usage: 0.0
+Deleted df_enhancer_perf_5. Memory Usage: 0.0
+trial_sample/msk_pred/96 created.
+Deleted dict_data. Memory Usage: 68.9
+trial_sample/msk_pred/97 created.
+Deleted dict_data. Memory Usage: 64.5
+trial_sample/msk_pred/98 created.
+Deleted dict_data. Memory Usage: 67.9
+trial_sample/msk_pred/99 created.
+Deleted dict_data. Memory Usage: 58.2
+trial_sample/msk_pred/100 created.
+Deleted dict_data. Memory Usage: 62.8
+trial_sample/msk_pred/101 created.
+Deleted dict_data. Memory Usage: 80.1
+trial_sample/msk_pred/102 created.
+Deleted dict_data. Memory Usage: 85.3
+trial_sample/msk_pred/103 created.
+Deleted dict_data. Memory Usage: 70.8
+trial_sample/msk_pred/104 created.
+Deleted dict_data. Memory Usage: 56.4
+trial_sample/msk_pred/105 created.
+Deleted dict_data. Memory Usage: 73.7
+trial_sample/msk_pred/106 created.
+Deleted dict_data. Memory Usage: 66.7
+trial_sample/msk_pred/107 created.
+Deleted dict_data. Memory Usage: 65.5
+trial_sample/msk_pred/108 created.
+Deleted dict_data. Memory Usage: 58.3
+trial_sample/msk_pred/109 created.
+Deleted dict_data. Memory Usage: 50.0
+trial_sample/msk_pred/110 created.
+Deleted dict_data. Memory Usage: 0.0
+trial_sample/msk_pred/111 created.
+Deleted dict_data. Memory Usage: 70.4
+Deleted df_enhancer_perf_6. Memory Usage: 57.1
+trial_sample/msk_pred/112 created.
+Deleted dict_data. Memory Usage: 92.6
+trial_sample/msk_pred/113 created.
+Deleted dict_data. Memory Usage: 90.9
+trial_sample/msk_pred/114 created.
+Deleted dict_data. Memory Usage: 79.6
+trial_sample/msk_pred/115 created.
+Deleted dict_data. Memory Usage: 81.9
+trial_sample/msk_pred/116 created.
+Deleted dict_data. Memory Usage: 93.9
+trial_sample/msk_pred/117 created.
+Deleted dict_data. Memory Usage: 99.0
+trial_sample/msk_pred/118 created.
+Deleted dict_data. Memory Usage: 99.6
+trial_sample/msk_pred/119 created.
+Deleted dict_data. Memory Usage: 100.0
+trial_sample/msk_pred/120 created.
+Deleted dict_data. Memory Usage: 98.1
+trial_sample/msk_pred/121 created.
+Deleted dict_data. Memory Usage: 94.1
+trial_sample/msk_pred/122 created.
+Deleted dict_data. Memory Usage: 94.3
+trial_sample/msk_pred/123 created.
+Deleted dict_data. Memory Usage: 98.0
+trial_sample/msk_pred/124 created.
+Deleted dict_data. Memory Usage: 94.1
+trial_sample/msk_pred/125 created.
+Deleted dict_data. Memory Usage: 86.3
+trial_sample/msk_pred/126 created.
+Deleted dict_data. Memory Usage: 87.1
+trial_sample/msk_pred/127 created.
+Deleted dict_data. Memory Usage: 84.7
+Deleted df_enhancer_perf_7. Memory Usage: 78.4
+trial_sample/msk_pred/128 created.
+Deleted dict_data. Memory Usage: 94.6
+trial_sample/msk_pred/129 created.
+Deleted dict_data. Memory Usage: 100.0
+trial_sample/msk_pred/130 created.
+Deleted dict_data. Memory Usage: 98.7
+trial_sample/msk_pred/131 created.
+Deleted dict_data. Memory Usage: 98.8
+trial_sample/msk_pred/132 created.
+Deleted dict_data. Memory Usage: 93.8
+trial_sample/msk_pred/133 created.
+Deleted dict_data. Memory Usage: 96.7
+trial_sample/msk_pred/134 created.
+Deleted dict_data. Memory Usage: 99.1
+trial_sample/msk_pred/135 created.
+Deleted dict_data. Memory Usage: 99.3
+trial_sample/msk_pred/136 created.
+Deleted dict_data. Memory Usage: 97.6
+trial_sample/msk_pred/137 created.
+Deleted dict_data. Memory Usage: 97.9
+trial_sample/msk_pred/138 created.
+Deleted dict_data. Memory Usage: 99.5
+trial_sample/msk_pred/139 created.
+Deleted dict_data. Memory Usage: 99.5
+trial_sample/msk_pred/140 created.
+Deleted dict_data. Memory Usage: 100.0
+trial_sample/msk_pred/141 created.
+Deleted dict_data. Memory Usage: 99.5
+trial_sample/msk_pred/142 created.
+Deleted dict_data. Memory Usage: 98.5
+trial_sample/msk_pred/143 created.
+Deleted dict_data. Memory Usage: 94.2
+Deleted df_enhancer_perf_8. Memory Usage: 71.0
+trial_sample/msk_pred/144 created.
+Deleted dict_data. Memory Usage: 81.6
+trial_sample/msk_pred/145 created.
+Deleted dict_data. Memory Usage: 93.8
+trial_sample/msk_pred/146 created.
+Deleted dict_data. Memory Usage: 92.5
+trial_sample/msk_pred/147 created.
+Deleted dict_data. Memory Usage: 94.1
+trial_sample/msk_pred/148 created.
+Deleted dict_data. Memory Usage: 99.0
+trial_sample/msk_pred/149 created.
+Deleted dict_data. Memory Usage: 97.4
+trial_sample/msk_pred/150 created.
+Deleted dict_data. Memory Usage: 98.2
+trial_sample/msk_pred/151 created.
+Deleted dict_data. Memory Usage: 98.6
+trial_sample/msk_pred/152 created.
+Deleted dict_data. Memory Usage: 81.9
+trial_sample/msk_pred/153 created.
+Deleted dict_data. Memory Usage: 79.8
+trial_sample/msk_pred/154 created.
+Deleted dict_data. Memory Usage: 81.6
+trial_sample/msk_pred/155 created.
+Deleted dict_data. Memory Usage: 84.2
+trial_sample/msk_pred/156 created.
+Deleted dict_data. Memory Usage: 82.1
+trial_sample/msk_pred/157 created.
+Deleted dict_data. Memory Usage: 78.2
+trial_sample/msk_pred/158 created.
+Deleted dict_data. Memory Usage: 75.7
+trial_sample/msk_pred/159 created.
+Deleted dict_data. Memory Usage: 77.2
+Deleted df_enhancer_perf_9. Memory Usage: 68.6
+trial_sample/msk_pred/160 created.
+Deleted dict_data. Memory Usage: 82.2
+trial_sample/msk_pred/161 created.
+Deleted dict_data. Memory Usage: 88.2
+trial_sample/msk_pred/162 created.
+Deleted dict_data. Memory Usage: 80.3
+trial_sample/msk_pred/163 created.
+Deleted dict_data. Memory Usage: 84.7
+trial_sample/msk_pred/164 created.
+Deleted dict_data. Memory Usage: 82.8
+trial_sample/msk_pred/165 created.
+Deleted dict_data. Memory Usage: 79.1
+trial_sample/msk_pred/166 created.
+Deleted dict_data. Memory Usage: 80.8
+trial_sample/msk_pred/167 created.
+Deleted dict_data. Memory Usage: 79.2
+trial_sample/msk_pred/168 created.
+Deleted dict_data. Memory Usage: 68.7
+trial_sample/msk_pred/169 created.
+Deleted dict_data. Memory Usage: 52.1
+trial_sample/msk_pred/170 created.
+Deleted dict_data. Memory Usage: 55.6
+trial_sample/msk_pred/171 created.
+Deleted dict_data. Memory Usage: 57.9
+trial_sample/msk_pred/172 created.
+Deleted dict_data. Memory Usage: 63.0
+trial_sample/msk_pred/173 created.
+Deleted dict_data. Memory Usage: 54.6
+trial_sample/msk_pred/174 created.
+Deleted dict_data. Memory Usage: 60.1
+trial_sample/msk_pred/175 created.
+Deleted dict_data. Memory Usage: 62.8
+Deleted df_enhancer_perf_10. Memory Usage: 26.9
+trial_sample/msk_pred/176 created.
+Deleted dict_data. Memory Usage: 54.4
+trial_sample/msk_pred/177 created.
+Deleted dict_data. Memory Usage: 0.0
+trial_sample/msk_pred/178 created.
+Deleted dict_data. Memory Usage: 59.0
+trial_sample/msk_pred/179 created.
+Deleted dict_data. Memory Usage: 65.2
+trial_sample/msk_pred/180 created.
+Deleted dict_data. Memory Usage: 64.0
+trial_sample/msk_pred/181 created.
+Deleted dict_data. Memory Usage: 66.2
+trial_sample/msk_pred/182 created.
+Deleted dict_data. Memory Usage: 64.2
+trial_sample/msk_pred/183 created.
+Deleted dict_data. Memory Usage: 64.8
+trial_sample/msk_pred/184 created.
+Deleted dict_data. Memory Usage: 68.6
+trial_sample/msk_pred/185 created.
+Deleted dict_data. Memory Usage: 68.1
+trial_sample/msk_pred/186 created.
+Deleted dict_data. Memory Usage: 69.2
+trial_sample/msk_pred/187 created.
+Deleted dict_data. Memory Usage: 65.7
+trial_sample/msk_pred/188 created.
+Deleted dict_data. Memory Usage: 65.3
+trial_sample/msk_pred/189 created.
+Deleted dict_data. Memory Usage: 67.4
+trial_sample/msk_pred/190 created.
+Deleted dict_data. Memory Usage: 68.0
+trial_sample/msk_pred/191 created.
+Deleted dict_data. Memory Usage: 57.8
+Deleted df_enhancer_perf_11. Memory Usage: 57.1
+trial_sample/msk_pred/192 created.
+Deleted dict_data. Memory Usage: 65.0
+trial_sample/msk_pred/193 created.
+Deleted dict_data. Memory Usage: 60.4
+trial_sample/msk_pred/194 created.
+Deleted dict_data. Memory Usage: 49.6
+trial_sample/msk_pred/195 created.
+Deleted dict_data. Memory Usage: 59.7
+trial_sample/msk_pred/196 created.
+Deleted dict_data. Memory Usage: 56.0
+trial_sample/msk_pred/197 created.
+Deleted dict_data. Memory Usage: 50.8
+trial_sample/msk_pred/198 created.
+Deleted dict_data. Memory Usage: 53.0
+trial_sample/msk_pred/199 created.
+Deleted dict_data. Memory Usage: 61.1
+trial_sample/msk_pred/200 created.
+Deleted dict_data. Memory Usage: 58.9
+trial_sample/msk_pred/201 created.
+Deleted dict_data. Memory Usage: 51.9
+trial_sample/msk_pred/202 created.
+Deleted dict_data. Memory Usage: 56.2
+trial_sample/msk_pred/203 created.
+Deleted dict_data. Memory Usage: 52.9
+trial_sample/msk_pred/204 created.
+Deleted dict_data. Memory Usage: 59.6
+trial_sample/msk_pred/205 created.
+Deleted dict_data. Memory Usage: 63.1
+trial_sample/msk_pred/206 created.
+Deleted dict_data. Memory Usage: 57.7
+trial_sample/msk_pred/207 created.
+Deleted dict_data. Memory Usage: 54.3
+Deleted df_enhancer_perf_12. Memory Usage: 26.9
+trial_sample/msk_pred/208 created.
+Deleted dict_data. Memory Usage: 54.0
+trial_sample/msk_pred/209 created.
+Deleted dict_data. Memory Usage: 66.5
+trial_sample/msk_pred/210 created.
+Deleted dict_data. Memory Usage: 68.4
+trial_sample/msk_pred/211 created.
+Deleted dict_data. Memory Usage: 67.8
+trial_sample/msk_pred/212 created.
+Deleted dict_data. Memory Usage: 0.0
+trial_sample/msk_pred/213 created.
+Deleted dict_data. Memory Usage: 56.7
+trial_sample/msk_pred/214 created.
+Deleted dict_data. Memory Usage: 49.6
+trial_sample/msk_pred/215 created.
+Deleted dict_data. Memory Usage: 68.2
+trial_sample/msk_pred/216 created.
+Deleted dict_data. Memory Usage: 67.7
+trial_sample/msk_pred/217 created.
+Deleted dict_data. Memory Usage: 74.7
+trial_sample/msk_pred/218 created.
+Deleted dict_data. Memory Usage: 78.7
+trial_sample/msk_pred/219 created.
+Deleted dict_data. Memory Usage: 77.4
+trial_sample/msk_pred/220 created.
+Deleted dict_data. Memory Usage: 81.9
+trial_sample/msk_pred/221 created.
+Deleted dict_data. Memory Usage: 71.4
+trial_sample/msk_pred/222 created.
+Deleted dict_data. Memory Usage: 66.2
+trial_sample/msk_pred/223 created.
+Deleted dict_data. Memory Usage: 79.0
+Deleted df_enhancer_perf_13. Memory Usage: 71.1
+trial_sample/msk_pred/224 created.
+Deleted dict_data. Memory Usage: 76.5
+trial_sample/msk_pred/225 created.
+Deleted dict_data. Memory Usage: 77.9
+trial_sample/msk_pred/226 created.
+Deleted dict_data. Memory Usage: 74.9
+trial_sample/msk_pred/227 created.
+Deleted dict_data. Memory Usage: 73.0
+trial_sample/msk_pred/228 created.
+Deleted dict_data. Memory Usage: 0.0
+trial_sample/msk_pred/229 created.
+Deleted dict_data. Memory Usage: 70.8
+trial_sample/msk_pred/230 created.
+Deleted dict_data. Memory Usage: 79.9
+trial_sample/msk_pred/231 created.
+Deleted dict_data. Memory Usage: 72.5
+trial_sample/msk_pred/232 created.
+Deleted dict_data. Memory Usage: 75.8
+trial_sample/msk_pred/233 created.
+Deleted dict_data. Memory Usage: 69.7
+trial_sample/msk_pred/234 created.
+Deleted dict_data. Memory Usage: 64.7
+trial_sample/msk_pred/235 created.
+Deleted dict_data. Memory Usage: 59.6
+trial_sample/msk_pred/236 created.
+Deleted dict_data. Memory Usage: 58.3
+trial_sample/msk_pred/237 created.
+Deleted dict_data. Memory Usage: 57.7
+trial_sample/msk_pred/238 created.
+Deleted dict_data. Memory Usage: 65.7
+trial_sample/msk_pred/239 created.
+Deleted dict_data. Memory Usage: 62.8
+Deleted df_enhancer_perf_14. Memory Usage: 0.0
+trial_sample/msk_pred/240 created.
+Deleted dict_data. Memory Usage: 59.6
+trial_sample/msk_pred/241 created.
+Deleted dict_data. Memory Usage: 57.1
+trial_sample/msk_pred/242 created.
+Deleted dict_data. Memory Usage: 70.9
+trial_sample/msk_pred/243 created.
+Deleted dict_data. Memory Usage: 63.4
+trial_sample/msk_pred/244 created.
+Deleted dict_data. Memory Usage: 61.6
+trial_sample/msk_pred/245 created.
+Deleted dict_data. Memory Usage: 60.7
+trial_sample/msk_pred/246 created.
+Deleted dict_data. Memory Usage: 60.4
+trial_sample/msk_pred/247 created.
+Deleted dict_data. Memory Usage: 56.3
+trial_sample/msk_pred/248 created.
+Deleted dict_data. Memory Usage: 59.0
+trial_sample/msk_pred/249 created.
+Deleted dict_data. Memory Usage: 60.1
+trial_sample/msk_pred/250 created.
+Deleted dict_data. Memory Usage: 59.4
+trial_sample/msk_pred/251 created.
+Deleted dict_data. Memory Usage: 54.0
+trial_sample/msk_pred/252 created.
+Deleted dict_data. Memory Usage: 56.7
+trial_sample/msk_pred/253 created.
+Deleted dict_data. Memory Usage: 75.1
+trial_sample/msk_pred/254 created.
+Deleted dict_data. Memory Usage: 70.9
+trial_sample/msk_pred/255 created.
+Deleted dict_data. Memory Usage: 74.9
+Deleted df_enhancer_perf_15. Memory Usage: 48.5
+Deleted df_enhancer_perf_16. Memory Usage: 46.7
+Model: "model"
+__________________________________________________________________________________________________
+Layer (type)                    Output Shape         Param #     Connected to                     
+==================================================================================================
+sequence_inputs (InputLayer)    [(None, 2, 16, 1001) 0                                            
+__________________________________________________________________________________________________
+lambda (Lambda)                 (None, 2, 16, 1001,  0           sequence_inputs[0][0]            
+__________________________________________________________________________________________________
+pwms_init_lyr (Conv3D)          (None, 2, 4, 994, 8) 256         lambda[0][0]                     
+__________________________________________________________________________________________________
+rc_split (Lambda)               [(None, 1, 4, 994, 8 0           pwms_init_lyr[0][0]              
+__________________________________________________________________________________________________
+rc_neg (Lambda)                 (None, 1, 4, 994, 8) 0           rc_split[0][1]                   
+__________________________________________________________________________________________________
+rc_concat (Lambda)              (None, 2, 4, 994, 8) 0           rc_split[0][0]                   
+                                                                 rc_neg[0][0]                     
+__________________________________________________________________________________________________
+maxpool_pwms (MaxPooling3D)     (None, 1, 4, 9, 8)   0           rc_concat[0][0]                  
+__________________________________________________________________________________________________
+permute (Permute)               (None, 4, 9, 8, 1)   0           maxpool_pwms[0][0]               
+__________________________________________________________________________________________________
+avg_pwms (AveragePooling3D)     (None, 4, 1, 8, 1)   0           permute[0][0]                    
+__________________________________________________________________________________________________
+lambda_1 (Lambda)               (None, 4, 8)         0           avg_pwms[0][0]                   
+__________________________________________________________________________________________________
+transpose_2 (Permute)           (None, 8, 4)         0           lambda_1[0][0]                   
+__________________________________________________________________________________________________
+lambda_2 (Lambda)               (None, 8, 4, 1)      0           transpose_2[0][0]                
+__________________________________________________________________________________________________
+combine_pwms (Conv2D)           (None, 1, 4, 4)      36          lambda_2[0][0]                   
+__________________________________________________________________________________________________
+lambda_3 (Lambda)               (None, 4, 4)         0           combine_pwms[0][0]               
+__________________________________________________________________________________________________
+cell_inputs (InputLayer)        [(None, 4, 4)]       0                                            
+__________________________________________________________________________________________________
+mult_acc_pwms (Multiply)        (None, 4, 4)         0           lambda_3[0][0]                   
+                                                                 cell_inputs[0][0]                
+__________________________________________________________________________________________________
+average_pooling1d (AveragePooli (None, 1, 4)         0           mult_acc_pwms[0][0]              
+__________________________________________________________________________________________________
+flatten (Flatten)               (None, 4)            0           average_pooling1d[0][0]          
+__________________________________________________________________________________________________
+cell_split (Lambda)             [(None, 1), (None, 1 0           flatten[0][0]                    
+__________________________________________________________________________________________________
+concatenate (Concatenate)       (None, 2)            0           cell_split[0][0]                 
+                                                                 cell_split[0][1]                 
+__________________________________________________________________________________________________
+concatenate_1 (Concatenate)     (None, 2)            0           cell_split[0][0]                 
+                                                                 cell_split[0][2]                 
+__________________________________________________________________________________________________
+prediction_1 (Dense)            (None, 1)            3           concatenate[0][0]                
+__________________________________________________________________________________________________
+prediction_2 (Dense)            (None, 1)            3           concatenate_1[0][0]              
+__________________________________________________________________________________________________
+concatenate_2 (Concatenate)     (None, 2)            0           cell_split[0][0]                 
+                                                                 cell_split[0][3]                 
+__________________________________________________________________________________________________
+reshape (Reshape)               (None, 1, 1)         0           prediction_1[0][0]               
+__________________________________________________________________________________________________
+reshape_1 (Reshape)             (None, 1, 1)         0           prediction_2[0][0]               
+__________________________________________________________________________________________________
+prediction_3 (Dense)            (None, 1)            3           concatenate_2[0][0]              
+__________________________________________________________________________________________________
+concat_cell_preds_1 (Lambda)    (None, 2, 1)         0           reshape[0][0]                    
+                                                                 reshape_1[0][0]                  
+__________________________________________________________________________________________________
+reshape_2 (Reshape)             (None, 1, 1)         0           prediction_3[0][0]               
+__________________________________________________________________________________________________
+concat_cell_preds_2 (Lambda)    (None, 3, 1)         0           concat_cell_preds_1[0][0]        
+                                                                 reshape_2[0][0]                  
+__________________________________________________________________________________________________
+flatten_1 (Flatten)             (None, 3)            0           concat_cell_preds_2[0][0]        
+==================================================================================================
+Total params: 301
+Trainable params: 0
+Non-trainable params: 301
+__________________________________________________________________________________________________
+None

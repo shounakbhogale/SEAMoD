@@ -1,0 +1,4 @@
+trial_sample/ ['D4_Neu', 'D4_Ast', 'D4_OligD']
+D4_Neu
+D4_Ast
+D4_OligD

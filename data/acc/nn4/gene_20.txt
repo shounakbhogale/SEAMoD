@@ -1,0 +1,32 @@
+>D0_NSC_chr14-932
+12.3	0	0	0
+>D0_NSC_chr14-824
+13.0	0	0	0
+>D0_NSC_Dummy
+0	0	0	0
+>D0_NSC_Dummy
+0	0	0	0
+>D4_Neu_chr14-1013
+0	12.5	0	0
+>D4_Neu_chr14-2162
+0	6.89	0	0
+>D4_Neu_chr14-2598
+0	6.46	0	0
+>D4_Neu_Dummy
+0	0	0	0
+>D4_Ast_chr14-2421
+0	0	6.56	0
+>D4_Ast_chr14-506
+0	0	24.0	0
+>D4_Ast_chr14-826
+0	0	18.4	0
+>D4_Ast_chr14-1426
+0	0	10.5	0
+>D4_OligD_chr14-134
+0	0	0	20.6
+>D4_OligD_Dummy
+0	0	0	0
+>D4_OligD_Dummy
+0	0	0	0
+>D4_OligD_Dummy
+0	0	0	0

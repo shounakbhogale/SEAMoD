@@ -1,0 +1,9 @@
+PWMs	IC
+pwms_0	-7.805
+pwms_1	-8.017
+pwms_2	-7.582
+pwms_3	-8.788
+pwms_4	-8.226
+pwms_5	-8.36
+pwms_6	-6.782
+pwms_7	-8.843

@@ -1,0 +1,30 @@
+init_seed_value	2023
+dir_acc	acc/nn
+dir_data	data
+dir_logs	trial_sample
+dir_pbms	motifs_mod
+dir_prtn	prtn
+dir_seqs	seqs/nn
+file_gene_exp	gene_class.txt
+file_pbms	pwms_rel.txt
+cells	D0_NSC	D4_Neu	D4_Ast	D4_OligD
+pbm_extn	wtmx
+pbm_train	one
+n_seqs	4
+n_cells	4
+acc	true
+l_seqs	1001
+n_cpu	4
+wt_l1	0.0
+wt_l2	0.0
+wt_kl	0.0
+lrng_rt	0.001
+conv_init	true
+l_pwms	8
+n_pwms	8
+loss_func	mean_squared_error
+shape_lyrs	3	3
+act_funcs	relu	relu	relu
+quant_monitor	val_loss
+quant_model	val_mean_squared_error
+n_epochs	10

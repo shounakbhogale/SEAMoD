@@ -1,0 +1,9 @@
+Expression file loaded.  (30, 4)
+D0_NSC
+D4_Neu
+D4_Ast
+D4_OligD
+D0_NSC 0.075
+D4_Neu 0.073
+D4_Ast 0.074
+D4_OligD 0.073
