@@ -1,7 +1,9 @@
 # SEAMoD
 
 Required Python Pacakges - 
+  functools
   gc
+  itertools
   json
   matplotlib
   multiprocessing
@@ -10,6 +12,7 @@ Required Python Pacakges -
   pandas
   pathlib
   psutil
+  random
   scipy
   shutil
   sys
@@ -23,4 +26,4 @@ Running the bash script 'run.sh' will -
   3. Retrian the model using optimal enhancers
   4. Generate a list of important motifs learned by the model in the previous step.
 
-A sample output (using the sample input) is provided in the directory 'trial_sample'.
+A sample output (using the sample input) is provided in the directory 'trial_sample'. Note that the two config files required for running the bash script should be located in the same directory ('trial_sample').
